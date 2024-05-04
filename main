@@ -1,0 +1,16 @@
+fun main() {
+    val string = "blue-red-green-yellow"
+    println(string.split("-"))
+    val str = " Hello, World,I like playing, Update Tower Defense"
+    println(str.replace("o", "0"))
+    val shiftString = str.map { char -> char + 3 }.joinToString("")
+    println(shiftString)
+    println(str.replace("U", "4"))
+    println(str.replace("s", "5"))
+    val shiftedString = str.map { char -> char + 1 }.joinToString("")
+    println(shiftedString)
+    println(str.replace("I like playing Update Tower Defense", "_"))
+    val shiftdString = str.map { char -> char + 4 }.joinToString("")
+    println(shiftdString)
+    println(str.reversed())
+}
